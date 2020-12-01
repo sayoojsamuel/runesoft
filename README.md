@@ -4,10 +4,10 @@ Project done in association with Digital Image Processing Course Project on
 "Designing a Scalable and Lightweight Mask Detection API with almost zero running cost"
 
 ## Team Members
-Adithya Narayan
-Amal P Anilkumal
+Adithya Narayan K A
+Amal P Anilkumar
 Sayooj Samuel
-Shilpa R
+Shilpa Hari Prakash
 
 ## Getting Started - TensorFlow RunesSoft
 

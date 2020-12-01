@@ -1,0 +1,263 @@
+I  !  ~/P/r/r/R/deploy  bash azure-deploy.sh                          1.8m  Tue 24 Nov 2020 09:52:18 PM UTC
+{
+  "id": "/subscriptions/733f56b0-a7f7-4357-8412-64fe51638802/resourceGroups/runeResourceGroup",
+  "location": "westeurope",
+  "managedBy": null,
+  "name": "runeResourceGroup",
+  "properties": {
+    "provisioningState": "Succeeded"
+  },
+  "tags": null,
+  "type": "Microsoft.Resources/resourceGroups"
+}
+{- Finished ..
+  "accessTier": "Hot",
+  "allowBlobPublicAccess": null,
+  "azureFilesIdentityBasedAuthentication": null,
+  "blobRestoreStatus": null,
+  "creationTime": "2020-11-24T21:50:39.516760+00:00",
+  "customDomain": null,
+  "enableHttpsTrafficOnly": true,
+  "encryption": {
+    "keySource": "Microsoft.Storage",
+    "keyVaultProperties": null,
+    "requireInfrastructureEncryption": null,
+    "services": {
+      "blob": {
+        "enabled": true,
+        "keyType": "Account",
+        "lastEnabledTime": "2020-11-24T21:50:39.626173+00:00"
+      },
+      "file": {
+        "enabled": true,
+        "keyType": "Account",
+        "lastEnabledTime": "2020-11-24T21:50:39.626173+00:00"
+      },
+      "queue": null,
+      "table": null
+    }
+  },
+  "failoverInProgress": null,
+  "geoReplicationStats": null,
+  "id": "/subscriptions/733f56b0-a7f7-4357-8412-64fe51638802/resourceGroups/runeResourceGroup/providers/Microsoft.Storage/storageAccounts/runestorage",
+  "identity": null,
+  "isHnsEnabled": null,
+  "kind": "StorageV2",
+  "largeFileSharesState": null,
+  "lastGeoFailoverTime": null,
+  "location": "westeurope",
+  "minimumTlsVersion": null,
+  "name": "runestorage",
+  "networkRuleSet": {
+    "bypass": "AzureServices",
+    "defaultAction": "Allow",
+    "ipRules": [],
+    "virtualNetworkRules": []
+  },
+  "primaryEndpoints": {
+    "blob": "https://runestorage.blob.core.windows.net/",
+    "dfs": "https://runestorage.dfs.core.windows.net/",
+    "file": "https://runestorage.file.core.windows.net/",
+    "internetEndpoints": null,
+    "microsoftEndpoints": null,
+    "queue": "https://runestorage.queue.core.windows.net/",
+    "table": "https://runestorage.table.core.windows.net/",
+    "web": "https://runestorage.z6.web.core.windows.net/"
+  },
+  "primaryLocation": "westeurope",
+  "privateEndpointConnections": [],
+  "provisioningState": "Succeeded",
+  "resourceGroup": "runeResourceGroup",
+  "routingPreference": null,
+  "secondaryEndpoints": null,
+  "secondaryLocation": null,
+  "sku": {
+    "name": "Standard_LRS",
+    "tier": "Standard"
+  },
+  "statusOfPrimary": "available",
+  "statusOfSecondary": null,
+  "tags": {},
+  "type": "Microsoft.Storage/storageAccounts"
+}
+ - Finished ..
+
+
+Application Insights "runeserverless" was created for this Function App. You can visit https://portal.azure.com/#resource/subscriptions/733f56b0-a7f7-4357-8412-64fe51638802/resourceGroups/runeResourceGroup/providers/microsoft.insights/components/runeserverless/overview to view your Application Insights component
+{
+  "availabilityState": "Normal",
+  "clientAffinityEnabled": false,
+  "clientCertEnabled": false,
+  "clientCertExclusionPaths": null,
+  "cloningInfo": null,
+  "containerSize": 1536,
+  "dailyMemoryTimeQuota": 0,
+  "defaultHostName": "runeserverless.azurewebsites.net",
+  "enabled": true,
+  "enabledHostNames": [
+    "runeserverless.azurewebsites.net",
+    "runeserverless.scm.azurewebsites.net"
+  ],
+  "hostNameSslStates": [
+    {
+      "hostType": "Standard",
+      "ipBasedSslResult": null,
+      "ipBasedSslState": "NotConfigured",
+      "name": "runeserverless.azurewebsites.net",
+      "sslState": "Disabled",
+      "thumbprint": null,
+      "toUpdate": null,
+      "toUpdateIpBasedSsl": null,
+      "virtualIp": null
+    },
+    {
+      "hostType": "Repository",
+      "ipBasedSslResult": null,
+      "ipBasedSslState": "NotConfigured",
+      "name": "runeserverless.scm.azurewebsites.net",
+      "sslState": "Disabled",
+      "thumbprint": null,
+      "toUpdate": null,
+      "toUpdateIpBasedSsl": null,
+      "virtualIp": null
+    }
+  ],
+  "hostNames": [
+    "runeserverless.azurewebsites.net"
+  ],
+  "hostNamesDisabled": false,
+  "hostingEnvironmentProfile": null,
+  "httpsOnly": false,
+  "hyperV": false,
+  "id": "/subscriptions/733f56b0-a7f7-4357-8412-64fe51638802/resourceGroups/runeResourceGroup/providers/Microsoft.Web/sites/runeserverless",
+  "identity": null,
+  "inProgressOperationId": null,
+  "isDefaultContainer": null,
+  "isXenon": false,
+  "kind": "functionapp",
+  "lastModifiedTimeUtc": "2020-11-24T21:53:07.056666",
+  "location": "westeurope",
+  "maxNumberOfWorkers": null,
+  "name": "runeserverless",
+  "outboundIpAddresses": "51.137.4.9,51.137.4.210,51.137.4.238,51.137.5.1,51.137.6.102,51.137.6.174,51.138.57.17,51.138.57.73,51.138.57.95",
+  "possibleOutboundIpAddresses": "51.137.4.9,51.137.4.210,51.137.4.238,51.137.5.1,51.137.6.102,51.137.6.174,51.138.57.17,51.138.57.73,51.138.57.95,51.137.7.73,51.137.7.83,51.137.7.104,51.137.7.126,51.137.7.130,51.137.7.155,51.137.7.156,51.137.7.212,51.137.7.229,51.138.56.8,51.138.56.59,51.138.56.63,51.138.56.66,51.138.56.86,51.138.56.142,51.138.56.157,51.138.56.174,51.138.56.230",
+  "redundancyMode": "None",
+  "repositorySiteName": "runeserverless",
+  "reserved": false,
+  "resourceGroup": "runeResourceGroup",
+  "scmSiteAlsoStopped": false,
+  "serverFarmId": "/subscriptions/733f56b0-a7f7-4357-8412-64fe51638802/resourceGroups/runeResourceGroup/providers/Microsoft.Web/serverfarms/WestEuropePlan",
+  "siteConfig": {
+    "acrUseManagedIdentityCreds": false,
+    "acrUserManagedIdentityId": null,
+    "alwaysOn": null,
+    "apiDefinition": null,
+    "apiManagementConfig": null,
+    "appCommandLine": null,
+    "appSettings": null,
+    "autoHealEnabled": null,
+    "autoHealRules": null,
+    "autoSwapSlotName": null,
+    "azureMonitorLogCategories": null,
+    "azureStorageAccounts": null,
+    "connectionStrings": null,
+    "cors": null,
+    "customAppPoolIdentityAdminState": null,
+    "customAppPoolIdentityTenantState": null,
+    "defaultDocuments": null,
+    "detailedErrorLoggingEnabled": null,
+    "documentRoot": null,
+    "experiments": null,
+    "fileChangeAuditEnabled": null,
+    "ftpsState": null,
+    "functionAppScaleLimit": null,
+    "functionsRuntimeScaleMonitoringEnabled": null,
+    "handlerMappings": null,
+    "healthCheckPath": null,
+    "http20Enabled": null,
+    "httpLoggingEnabled": null,
+    "ipSecurityRestrictions": [
+      {
+        "action": "Allow",
+        "description": "Allow all access",
+        "ipAddress": "Any",
+        "name": "Allow all",
+        "priority": 1,
+        "subnetMask": null,
+        "subnetTrafficTag": null,
+        "tag": null,
+        "vnetSubnetResourceId": null,
+        "vnetTrafficTag": null
+      }
+    ],
+    "javaContainer": null,
+    "javaContainerVersion": null,
+    "javaVersion": null,
+    "limits": null,
+    "linuxFxVersion": null,
+    "loadBalancing": null,
+    "localMySqlEnabled": null,
+    "logsDirectorySizeLimit": null,
+    "machineKey": null,
+    "managedPipelineMode": null,
+    "managedServiceIdentityId": null,
+    "metadata": null,
+    "minTlsVersion": null,
+    "minimumElasticInstanceCount": 0,
+    "netFrameworkVersion": null,
+    "nodeVersion": null,
+    "numberOfWorkers": null,
+    "phpVersion": null,
+    "powerShellVersion": null,
+    "preWarmedInstanceCount": null,
+    "publishingPassword": null,
+    "publishingUsername": null,
+    "push": null,
+    "pythonVersion": null,
+    "remoteDebuggingEnabled": null,
+    "remoteDebuggingVersion": null,
+    "requestTracingEnabled": null,
+    "requestTracingExpirationTime": null,
+    "routingRules": null,
+    "runtimeADUser": null,
+    "runtimeADUserPassword": null,
+    "scmIpSecurityRestrictions": [
+      {
+        "action": "Allow",
+        "description": "Allow all access",
+        "ipAddress": "Any",
+        "name": "Allow all",
+        "priority": 1,
+        "subnetMask": null,
+        "subnetTrafficTag": null,
+        "tag": null,
+        "vnetSubnetResourceId": null,
+        "vnetTrafficTag": null
+      }
+    ],
+    "scmIpSecurityRestrictionsUseMain": null,
+    "scmMinTlsVersion": null,
+    "scmType": null,
+    "tracingOptions": null,
+    "use32BitWorkerProcess": null,
+    "virtualApplications": null,
+    "vnetName": null,
+    "vnetPrivatePortsCount": null,
+    "vnetRouteAllEnabled": null,
+    "webSocketsEnabled": null,
+    "websiteTimeZone": null,
+    "winAuthAdminState": null,
+    "winAuthTenantState": null,
+    "windowsFxVersion": null,
+    "xManagedServiceIdentityId": null
+  },
+  "slotSwapStatus": null,
+  "state": "Running",
+  "suspendedTill": null,
+  "tags": null,
+  "targetSwapSlot": null,
+  "trafficManagerHostNames": null,
+  "type": "Microsoft.Web/sites",
+  "usageState": "Normal"
+}
+
